@@ -17,27 +17,27 @@ function M.apply(config)
     config.window_background_opacity = 1.00
 
     -- 背景图片和渐变效果
-    local image_num = math.random(1, 9) -- 可以根据需要修改背景图片序号
-    config.window_background_image = constants.CONFIG_DIR .. "/images/0" .. image_num .. ".jpg"
+--    local image_num = math.random(1, 9) -- 可以根据需要修改背景图片序号
+--    config.window_background_image = constrnts.CONFIG_DIR .. "/images/0" .. image_num .. ".jpg"
 
     -- 背景渐变叠加
-    config.window_background_gradient = {
-        colors = { "#1D261B", "#261A25" },
-        orientation = { Linear = { angle = -45.0 } },
-    }
+--    config.window_background_gradient = {
+--        colors = { "#1D261B", "#261A25" },
+--        orientation = { Linear = { angle = -45.0 } },
+--    }
 
     -- 背景叠加层（增强视觉效果）
-    config.background = {
-        {
-            source = { File = constants.CONFIG_DIR .. "/images/0" .. image_num .. ".jpg" },
-        },
-        {
-            source = { Color = "#151414" },
-            height = "100%",
-            width = "100%",
-            opacity = 0.95,
-        },
-    }
+--    config.background = {
+--        {
+ --           source = { File = constants.CONFIG_DIR .. "/images/0" .. image_num .. ".jpg" },
+--       },
+--        {
+--            source = { Color = "#151414" },
+--            height = "100%",
+--            width = "100%",
+--            opacity = 0.95,
+--        },
+--   }
 
     -- 窗口边距
     config.window_padding = {

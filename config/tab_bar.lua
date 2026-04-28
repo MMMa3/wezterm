@@ -127,7 +127,7 @@ function M.format_tab_title(tab, tabs, panes, cfg, hover, max_width)
 end
 
 function M.apply(config)
-    config.enable_tab_bar = true
+    config.enable_tab_bar = false
     config.tab_bar_at_bottom = false
     config.show_new_tab_button_in_tab_bar = true
     config.show_tab_index_in_tab_bar = true
